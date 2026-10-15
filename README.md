@@ -4,7 +4,7 @@ Version 2.0.0 provides a custom HEVC decoder for Windows desktop applications th
 
 ## Installation
 
-Run `dist\Universal Video Codec for Windows Setup.exe` and accept the Windows administrator prompt. Restart video applications after installation. PowerShell scripts are not required. The installer includes the matching .NET 10 runtimes, registers both COM/MFT architectures, and checks that Windows can enumerate and activate each decoder. Remove the product through Windows Installed apps.
+Download the latest installer (`Universal Video Codec for Windows Setup.exe`) from [**Releases v2.0.0**](https://github.com/xihuitl-systems-mx/Universal-Video-Codec-for-Windows/releases/latest) or run `dist\Universal Video Codec for Windows Setup.exe` and accept the Windows administrator prompt. Restart video applications after installation. PowerShell scripts are not required. The installer includes the matching .NET 10 runtimes, registers both COM/MFT architectures, and checks that Windows can enumerate and activate each decoder. Remove the product through Windows Installed apps.
 
 ## Build
 
