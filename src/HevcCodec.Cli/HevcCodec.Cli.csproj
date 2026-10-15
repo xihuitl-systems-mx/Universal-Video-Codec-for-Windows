@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget Condition="'$(CodecArchitecture)' == ''">x64</PlatformTarget>
+    <PlatformTarget Condition="'$(CodecArchitecture)' != ''">$(CodecArchitecture)</PlatformTarget>
+    <Product>Universal Video Codec for Windows</Product>
+    <AssemblyTitle>Universal Video Codec for Windows Installer</AssemblyTitle>
+    <Description>Installer and diagnostic utility for Universal Video Codec for Windows</Description>
+    <Company>Universal Video Codec for Windows</Company>
+    <Version>2.0.0</Version>
+  </PropertyGroup>
+  <ItemGroup><ProjectReference Include="..\HevcCodec\HevcCodec.csproj" /></ItemGroup>
+</Project>

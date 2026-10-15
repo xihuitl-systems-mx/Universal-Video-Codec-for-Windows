@@ -1,0 +1,20 @@
+# Build and distribution output
+dist/
+artifacts/
+obj/
+bin/
+tools/
+*.log
+
+# C++ Build outputs
+native/**/build/
+native/**/source/
+*.obj
+*.pdb
+*.user
+*.suo
+
+# IDE / Editor folders
+.vs/
+.idea/
+.vscode/
